@@ -1,0 +1,31 @@
+main {
+    padding: 20px 0;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+form textarea {
+    height: 160px;
+}
+form input,
+form textarea {
+    width: 100%;
+    margin-bottom: 20pz;
+}
+@media all and  (min-width: 800px) {
+    section {
+        padding: 0 10%;
+    }
+    .group {
+        flex-direction: row;
+    }
+}
